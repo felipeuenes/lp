@@ -20,5 +20,20 @@
 
 #formulario section label{
     font-size: 1.4rem;
-    margin-top: 1.4rem;
+    margin-top: 1.0rem;
+    margin-bottom: 0.3rem;
+}
+
+#formulario section input{
+    height: 3.0rem; 
+    border-radius: .6rem;
+    border: solid .03rem ;
+}
+
+.btnSubmit button{
+    height: 4.0rem;
+    margin-top: 1.6rem;
+    background-color: rgb(8, 153, 8);
+    color: white;
+    border: none;
 }

@@ -22,10 +22,14 @@ export function Body() {
                         <label htmlFor="email">E-mail:</label>
                         <input type="email" id='email'/>
                         </section>
-                        
+
                         <section>
                         <label htmlFor="tel">Telefone:</label>
                         <input type="tel" id='tel'/>
+                        </section>
+                        
+                        <section className='btnSubmit'>
+                         <button>Enviar</button>   
                         </section>
                     </form>
                 </section>
