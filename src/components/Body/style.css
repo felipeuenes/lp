@@ -1,4 +1,24 @@
 .body{
     width: 100vw;
     height: 80.0rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;  */
+    margin-top: 5.0rem;
+}
+
+.formulario{
+   text-align: center;
+
+}
+
+#formulario section{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario section label{
+    font-size: 1.4rem;
+    margin-top: 1.4rem;
 }
